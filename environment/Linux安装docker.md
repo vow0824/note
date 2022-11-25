@@ -135,6 +135,8 @@ docker images
 
 docker exec
 
+docker exec -it 容器 /bin/bash
+
 
 
 
