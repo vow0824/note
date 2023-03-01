@@ -9,8 +9,8 @@ mkdir -p /mydata/canal/conf
 docker run --name canal -d canal/canal-server:v1.1.5
 
 # 复制容器中的配置文件到本地
-docker cp canal:/home/admin/canal-server/conf/canal.properties /mydata/canal
-docker cp canal:/home/admin/canal-server/conf/example/instance.properties /mydata/canal
+docker cp canal:/home/admin/canal-server/conf/canal.properties /mydata/canal/conf
+docker cp canal:/home/admin/canal-server/conf/example/instance.properties /mydata/canal/conf
 ```
 
 删除之前的实例，重新启动canal实例

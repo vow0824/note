@@ -47,6 +47,7 @@ default-character-set=utf8
 default-character-set=utf8
 
 [mysqld]
+default-time_zone = '+8:00'
 init_connect='SET collation_connection = utf8_unicode_ci'
 init_connect='SET NAMES utf8'
 character-set-server=utf8
